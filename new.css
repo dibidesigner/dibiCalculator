@@ -1,0 +1,258 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.page-body{
+    background-color: aliceblue;
+    background-size: cover;
+    height: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+}
+.main{
+    height: 100px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2c89c6;
+    border: 3px solid #186599;
+    border-radius: 8px;
+    
+    
+}
+.main:hover{
+    height: 550px;
+    
+}
+#ddply{
+    visibility: hidden;
+}
+.main:hover input{
+    visibility: visible;   
+}
+.main:hover #ddply{
+    visibility: visible;
+}
+.input-place input{
+    width: 310px;
+    margin: 4px;
+    height: 80px;
+    background-color: transparent;
+    border: 2px solid  #1f6a9c;
+    color: rgb(255, 234, 0);
+    text-align: end;
+    font-size: 40px;
+}
+.one-line input{
+    width: 70px;
+    height: 70px;
+    margin: 4px;
+    border: none;
+    box-shadow: 0px 0px 2px 2px #072b43;
+    border-radius: 50%;
+    background: radial-gradient(#2476ac,#126196);
+    color: rgb(214, 217, 7);
+    font-size: 20px;
+    cursor: pointer;
+    scale: 1;
+    visibility: hidden;
+}
+.two-line input{
+    width: 70px;
+    height: 70px;
+    margin: 4px;
+    border: none;
+    box-shadow: 0px 0px 2px 2px #072b43;
+    border-radius: 50%;
+    background: radial-gradient(#2476ac,#126196);
+    color: white;
+    font-size: 20px;
+    scale: 1;
+    visibility: hidden;
+}
+.three-line input{
+    width: 70px;
+    height: 70px;
+    margin: 4px;
+    border: none;
+    box-shadow: 0px 0px 2px 2px #072b43;
+    border-radius: 50%;
+    background: radial-gradient(#2476ac,#126196);
+    color: white;
+    font-size: 20px;
+    scale: 1;
+    visibility: hidden;
+}
+.four-line input{
+    width: 70px;
+    height: 70px;
+    margin: 4px;
+    border: none;
+    box-shadow: 0px 0px 2px 2px #072b43;
+    border-radius: 50%;
+    background: radial-gradient(#2476ac,#126196);
+    color: white;
+    font-size: 20px;
+    scale: 1;
+    visibility: hidden;
+}
+.five-line input{
+    width: 70px;
+    height: 70px;
+    margin: 4px;
+    border: none;
+    box-shadow: 0px 0px 2px 2px #072b43;
+    border-radius: 50%;
+    background: radial-gradient(#2476ac,#126196);
+    color: white;
+    font-size: 20px;
+    scale: 1;
+    visibility: hidden;
+}
+/* .five-line .equal-btn{
+    width: 153px;
+} */
+#color{
+    color: rgb(251, 255, 3);
+    cursor: pointer;
+    
+}
+.one-line input:hover{
+    background-color: #0f4366;
+    scale: 1.1;
+}
+.two-line input:hover{
+    background-color: #0f4366;
+    scale: 1.1;
+}
+.three-line input:hover{
+    background-color: #0f4366;
+    scale: 1.1;
+}
+.four-line input:hover{
+    background-color: #0f4366;
+    scale: 1.1;
+}
+.five-line input:hover{
+    background-color: #0f4366;
+    scale: 1.1;
+}
+.font{
+    position: absolute;
+    font-size: 25px;
+    color: white;
+}
+.main:hover h2{
+    visibility: hidden;
+}
+
+
+
+
+/* Mobile View */
+
+
+@media (max-width:600px) {
+    .page-body{
+        height: 740px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: beige;
+    }
+    .input-place input{
+        width: 232px;
+        margin: 4px;
+        height: 70px;
+        background-color: transparent;
+        border: 2px solid  rgb(68, 68, 68);
+        color: white;
+        text-align: end;
+    }
+    .main{
+        height: 450px;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(61, 61, 61);
+        border-radius: 5px;
+    }
+    .one-line input{
+        width: 50px;
+        height: 50px;
+        margin: 4px;
+        border: none;
+        box-shadow: 0px 0px 2px 2px rgb(42, 42, 42);
+        border-radius: 3px;
+        background-color: rgb(73, 73, 73);
+        color: rgb(0, 204, 255);
+        font-size: 14px;
+        cursor: pointer;
+    }
+    .two-line input{
+        width: 50px;
+        height: 50px;
+        margin: 4px;
+        border: none;
+        box-shadow: 0px 0px 2px 2px rgb(42, 42, 42);
+        border-radius: 3px;
+        background-color: rgb(73, 73, 73);
+        color: white;
+        font-size: 14px;
+    }
+    .three-line input{
+        width: 50px;
+        height: 50px;
+        margin: 4px;
+        border: none;
+        box-shadow: 0px 0px 2px 2px rgb(42, 42, 42);
+        border-radius: 3px;
+        background-color: rgb(73, 73, 73);
+        color: white;
+        font-size: 14px;
+    }
+    .four-line input{
+        width: 50px;
+        height: 50px;
+        margin: 4px;
+        border: none;
+        box-shadow: 0px 0px 2px 2px rgb(42, 42, 42);
+        border-radius: 3px;
+        background-color: rgb(73, 73, 73);
+        color: white;
+        font-size: 14px;
+    }
+    .five-line input{
+        width: 50px;
+        height: 50px;
+        margin: 4px;
+        border: none;
+        box-shadow: 0px 0px 2px 2px rgb(42, 42, 42);
+        border-radius: 3px;
+        background-color: rgb(73, 73, 73);
+        color: white;
+        font-size: 14px;
+    }
+    .five-line .equal-btn{
+        width: 112px;
+    }.one-line input:hover{
+        background-color: rgb(51, 51, 51);
+    }
+    .two-line input:hover{
+        background-color: rgb(51, 51, 51);
+    }
+    .three-line input:hover{
+        background-color: rgb(51, 51, 51);
+    }
+    .four-line input:hover{
+        background-color: rgb(51, 51, 51);
+    }
+    .five-line input:hover{
+        background-color: rgb(51, 51, 51);
+    }
+    
+}
